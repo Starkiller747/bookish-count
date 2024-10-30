@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
+file_path = 'TheCountofMonteCristo.txt'
 
 #hyperparameters
 batch_size = 32 # how many independent sequences will we process in parallel?
